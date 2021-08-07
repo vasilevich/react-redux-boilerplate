@@ -1,0 +1,90 @@
+{
+  "name": "flights-trader-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "array-flat-polyfill": "^1.0.1",
+    "awesome-debounce-promise": "^2.1.0",
+    "axios": "^0.21.1",
+    "calculate-percentages": "^1.0.0",
+    "connected-react-router": "^6.9.1",
+    "file-saver": "^2.0.5",
+    "fill-range": "^7.0.1",
+    "formik": "^2.2.9",
+    "formik-persist": "https://github.com/vasilevich/formik-persist.git#precompiled",
+    "formik-top-error-focus": "^1.0.0",
+    "lazy-with-preload": "^1.0.5",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6",
+    "object-arrarify": "^1.0.4",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.1",
+    "react-helmet": "^6.1.0",
+    "react-if": "^3.4.3",
+    "react-interval-rerender": "https://github.com/vasilevich/react-interval-rerender.git#custom",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-table": "^7.6.3",
+    "reduce-reducers": "^1.0.4",
+    "redux-localstorage-simple": "^2.1.6",
+    "redux-location-state": "^2.8.2",
+    "redux-promise-middleware": "^6.1.2",
+    "redux-starter-kit": "^0.6.3",
+    "redux-wait-for-state": "^2.0.0",
+    "round-to": "^4.1.0",
+    "webpack-strip-block": "^0.3.0",
+    "xxhashjs": "^0.2.2"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.16",
+    "@rescripts/rescript-env": "^0.0.12",
+    "@types/node": "12.7.3",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "17.0.3",
+    "@types/react-router-dom": "^4.3.5",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "compression-webpack-plugin": "^8.0.1",
+    "node-sass": "4.14.1",
+    "react-scripts": "4.0.3",
+    "tslint": "^6.1.3",
+    "typescript": "3.6.2",
+    "typescript-plugin-css-modules": "^3.2.0",
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "clear-release": "rimraf releases",
+    "push-release": "need to be implemented",
+    "update-server": "npm run clear-release && npm run build && npm run push-release",
+    "test": "rescripts  test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "rescripts": [
+    "env",
+    "rescripts/.rescriptsrc.gzip.js",
+    "rescripts/.rescriptsrc.brotli.js",
+    "rescripts/.rescriptsrc.stripDevCode.js",
+    "rescripts/.rescriptsrc.preact.js"
+  ],
+  "resolutions": {
+    "react-scripts/eslint-webpack-plugin": "2.3.0"
+  }
+}

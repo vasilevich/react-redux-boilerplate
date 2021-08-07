@@ -1,0 +1,6 @@
+{
+  "name": "forgotpasswordcontainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ForgotPasswordContainer.ts"
+}

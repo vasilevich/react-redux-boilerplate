@@ -1,0 +1,6 @@
+{
+  "name": "signinformcontainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SignInContainer.ts"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "dashboardcontainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardContainer.ts"
+}

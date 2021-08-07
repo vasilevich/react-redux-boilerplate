@@ -1,0 +1,6 @@
+{
+  "name": "mainrouter",
+  "version": "0.0.0",
+  "private": true,
+   "main": "./MainRouter.tsx"
+}
